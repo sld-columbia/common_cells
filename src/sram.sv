@@ -11,7 +11,7 @@
 // Date: 13.10.2017
 // Description: SRAM Behavioral Model
 
-module sram #(
+module sram_behav #(
     int unsigned DATA_WIDTH = 64,
     int unsigned NUM_WORDS  = 1024
 )(
